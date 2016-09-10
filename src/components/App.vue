@@ -46,7 +46,7 @@
 
   <div class="decoration-line"></div>
 
-  <footer>
+  <!-- <footer>
     <section class="main">
       <ul>
         <li><a href="/posts">Posts</a></li>
@@ -58,7 +58,7 @@
       <div class="image">
       </div>
     </section>
-  </footer>
+  </footer> -->
 </div>
 </template>
 

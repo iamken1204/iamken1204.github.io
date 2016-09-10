@@ -1,10 +1,11 @@
 <template>
   <div>
     <div class="menu-close"
-      @click="toggleMenu"
-      v-bind:class="{ 'shown': menuShown }"></div>
+         @click="toggleMenu"
+         :class="{ 'shown': menuShown }">
+    </div>
 
-    <section class="menu" v-bind:class="{ 'shown': menuShown }">
+    <section class="menu" :class="{ 'shown': menuShown }">
       <ul class="links">
         <li><a>Home</a></li>
         <li><a>Posts</a></li>
@@ -28,8 +29,7 @@ export default {
   methods: {
     toggleMenu () {
       this.$store.dispatch('toggleMenu')
-    },
-    closeMenu () {}
+    }
   }
 }
 </script>

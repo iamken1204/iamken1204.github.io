@@ -1,5 +1,5 @@
 <template>
-  <a class="menulink zag" v-on:click="showMenu">
+  <a class="menulink zag" @click="showMenu">
     Menu
   </a>
 </template>

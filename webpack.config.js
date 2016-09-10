@@ -4,10 +4,10 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
   entry: {
-    app: './src/app.js'
+    app: ['./src/app.js', './src/css/app.sass']
   },
   output: {
-    path: path.resolve(__dirname, './public/dist'),
+    path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     filename: '[name].js',
     libraryTarget: 'umd'
@@ -38,7 +38,7 @@ module.exports = {
         })
       },
       {
-        test: /\.scss$/,
+        test: /\.scss$|\.sass$/,
         loader: ExtractTextPlugin.extract({
           fallbackLoader: 'style-loader',
           loader: 'css-loader?minimize!sass-loader'

@@ -6,13 +6,15 @@
       <span class="zag">Hi, I am Kettan</span>.
     </h1>
 
-    <h1 class="home-about">
+    <h2 class="home-about">
       I mainly use
       <strong>Laravel</strong>
       and
       <strong>Vue.js</strong>
       in development.
-    </h1>
+    </h2>
+
+    <!-- <h3 class="home-intro"></h3> -->
 
     <p>
       I can... <br>

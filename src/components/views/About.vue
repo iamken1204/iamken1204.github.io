@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main role="main" id="main">
     Hello?
-  </div>
+  </main>
 </template>

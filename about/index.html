@@ -14,9 +14,9 @@
   <app></app>
   <script>
     window.updateBodyURL = function () {
-      let path = window.location.pathname
-      let endIndex = path.length - 1
-      let end = path.charAt(endIndex)
+      var path = window.location.pathname
+      var endIndex = path.length - 1
+      var end = path.charAt(endIndex)
       if (path !== '/' && end === '/') path = path.slice(0, -1)
       document.getElementsByTagName('body')[0]
               .setAttribute('data-url', path)

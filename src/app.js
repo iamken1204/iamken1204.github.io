@@ -24,6 +24,7 @@ const router = new VueRouter({
   ]
 })
 router.beforeEach((route, redirect, next) => {
+  // window.updateBodyURL(route.path)
   next()
 })
 router.afterEach(_ => {

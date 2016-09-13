@@ -13,14 +13,10 @@
   <footer>
     <section class="main">
       <ul>
-        <li><a href="/posts">Posts</a></li>
-        <li><a href="/github">Github</a></li>
-        <li><a href="https://twitter.com/brianmgonzalez">Twitter</a></li>
+        <li><a href="https://github.com/iamken1204">Github</a></li>
+        <li><a href="https://twitter.com/iamken1204">Twitter</a></li>
         <li><a href="/about">About</a></li>
       </ul>
-
-      <div class="image">
-      </div>
     </section>
   </footer>
 

@@ -7,11 +7,8 @@
 
     <section class="menu" :class="{ 'shown': menuShown }">
       <ul class="links">
-        <li><a>Home</a></li>
-        <li><a>Posts</a></li>
-        <li><a>Github</a></li>
-        <li><a>Twitter</a></li>
-        <li><a>About</a></li>
+        <li><router-link :to="{ path: '/' }">Home</router-link></li>
+        <li><router-link to="/about">About</router-link></li>
       </ul>
     </section>
   </div>

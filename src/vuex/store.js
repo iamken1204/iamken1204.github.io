@@ -10,12 +10,18 @@ const state = {
 const mutations = {
   TOGGLE_MENU (state) {
     state.menuShown = !state.menuShown
+  },
+  SET_MENU (state, { status }) {
+    state.menuShown = status
   }
 }
 
 const actions = {
   toggleMenu ({ commit }) {
     commit('TOGGLE_MENU')
+  },
+  hideMenu ({ commit }) {
+    commit('SET_MENU', { status: false })
   }
 }
 
